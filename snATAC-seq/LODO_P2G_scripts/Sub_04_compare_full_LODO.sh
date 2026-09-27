@@ -1,0 +1,2 @@
+cd /public/home/zhaohuanhuan/snATAC/B/ArchR/snATAC_ArchR_basedHairCode/LODO_P2G/LODO_P2G_scripts
+qsub -l nodes=1:ppn=8,vmem=190gb -m ae -o 04_compare_full_LODO.o -e 04_compare_full_LODO.e -N 04_compare_full_LODO 04_compare_full_LODO.sh

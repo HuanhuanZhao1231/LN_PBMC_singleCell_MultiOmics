@@ -1,0 +1,2 @@
+cd /public/home/zhaohuanhuan/snATAC/B/ArchR/snATAC_ArchR_basedHairCode/LODO_P2G/LODO_P2G_scripts
+qsub -l nodes=1:ppn=8,vmem=190gb -m ae -o 05_HRG_reproducibility.o -e 05_HRG_reproducibility.e -N 05_HRG_reproducibility 05_HRG_reproducibility.sh

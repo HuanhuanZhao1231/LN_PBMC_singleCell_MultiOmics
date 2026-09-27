@@ -1,0 +1,2 @@
+cd /public/home/zhaohuanhuan/snATAC/B/ArchR/snATAC_ArchR_basedHairCode/LODO_P2G/LODO_P2G_scripts
+qsub -l nodes=1:ppn=8,vmem=190gb -m ae -o 06_make_Supplementary_Figure.o -e 06_make_Supplementary_Figure.e -N 06_make_Supplementary_Figure 06_make_Supplementary_Figure.sh

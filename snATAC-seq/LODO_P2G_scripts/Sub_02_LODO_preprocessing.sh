@@ -1,0 +1,2 @@
+cd /public/home/zhaohuanhuan/snATAC/B/ArchR/snATAC_ArchR_basedHairCode/LODO_P2G/LODO_P2G_scripts
+qsub -l nodes=1:ppn=8,vmem=190gb -m ae -o 02_LODO_processing.o -e 02_LODO_processing.e -N 02_LODO_processing 02_LODO_preprocessing.sh
