@@ -274,9 +274,10 @@ This folder contains scripts for blood eQTL mapping in lupus nephritis samples.
 Analyses include:
 
 - genotype-expression preprocessing
+- covariate selection
 - PEER factor optimization
 - MatrixeQTL association testing
-- colocalization analysis
+
 
 
 Main scripts:
