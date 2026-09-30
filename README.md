@@ -261,12 +261,60 @@ TF_regulators_identification.r
 
 ---
 
-# 6. eQTL analysis
+# 6. Genotype quality control and imputation
 
 Directory:
 
 
-eQTL Analysis/
+Genotype_data_analysis/
+
+
+Contains scripts for genotype preprocessing.
+
+Includes:
+
+- genotype quality control
+- genotype imputation
+
+
+Scripts:
+
+
+Quanlity_Control.sh
+Imputation.sh
+
+---
+
+# 7. RNA-seq
+
+Directory:
+
+
+RNA-seq/
+
+
+Contains scripts for Coloc.
+
+Includes:
+
+- RNA-seq analysis pipeline
+- Expression INT Transform
+
+
+Scripts:
+
+
+RNA_seq_analysis_pipeline.sh
+EXPcal-TPM-INTtransform.R
+
+---
+
+# 8. eQTL
+
+Directory:
+
+
+eQTL/
 
 
 This folder contains scripts for blood eQTL mapping in lupus nephritis samples.
@@ -291,33 +339,33 @@ Main scripts:
 
 ---
 
-# 7. Genotype quality control and imputation
+
+# 9. coloc
 
 Directory:
 
 
-Genotype_data_analysis/
+coloc/
 
 
-Contains scripts for genotype preprocessing.
+Contains scripts for Coloc.
 
 Includes:
 
-- genotype quality control
-- genotype imputation
+- Colocalization Script for SLE
+- Colocalization Script for eGFR
 
 
 Scripts:
 
 
-Quanlity_Control.sh
-Imputation.sh
-
-
+splitcode_For SLE coloc.zip
+splitcode_For eGFR coloc.zip
 
 ---
 
-# 8. SNP-CRE regulatory annotation
+
+# 10. SNP-CRE regulatory annotation
 
 Directory:
 
@@ -355,7 +403,7 @@ Target genes
 
 ---
 
-# 9. GWAS fine-mapping and SNP heritability analysis
+# 11. GWAS fine-mapping and SNP heritability analysis
 
 Directory:
 
@@ -380,8 +428,7 @@ Scripts:
 
 
 ---
-
-# 10. gkm-SVM regulatory sequence modeling
+# 12. gkm-SVM regulatory sequence modeling
 
 Directory:
 
