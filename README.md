@@ -9,7 +9,8 @@ The workflow integrates:
 - peak-to-gene regulatory linkage analysis
 - transcription factor (TF) regulatory network inference
 - lupus nephritis blood eQTL mapping
-- GWAS fine-mapping and SNP heritability analysis
+- colocalization analysis
+- SNP heritability analysis
 - SNP-to-cis-regulatory-element (CRE) mapping
 - sequence-based regulatory prediction using gkm-SVM
 
@@ -58,7 +59,8 @@ The overall analytical framework is designed to identify cell-type-specific regu
 ├── snATAC-seq/
 ├── TF-regulators/
 ├── Peak2Gene Analysis/
-├── eQTL Analysis/
+├── eQTL/
+├── Coloc/
 ├── Genotype_data_analysis/
 ├── SNP-CRE/
 ├── SNP_heritability_Analysis/
@@ -403,7 +405,7 @@ Target genes
 
 ---
 
-# 11. GWAS fine-mapping and SNP heritability analysis
+# 11. SNP heritability analysis
 
 Directory:
 
