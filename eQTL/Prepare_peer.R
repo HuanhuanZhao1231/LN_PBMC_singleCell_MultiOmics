@@ -1,5 +1,5 @@
-setwd("/public/home/zhaohuanhuan/eQTL/mydata/eQTL/99sample/peer")
-load("/public/home/zhaohuanhuan/eQTL/mydata/eQTL/99sample/peer/PEER50_kgp.RData")
+setwd("~/eQTL/mydata/eQTL/99sample/peer")
+load("~/eQTL/mydata/eQTL/99sample/peer/PEER50_nokgp.RData")
 factors1 <- t(factors)
 factors2 <- factors1[-12,]
 peer1_nokgp <- factors2[1:12,]
