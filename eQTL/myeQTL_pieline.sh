@@ -56,9 +56,9 @@ qsub -l nodes=1:ppn=4,vmem=50gb -o vcf2dos.o -e vcf2dos.e -N vcf2dos vcf2dos.sh
 condaac bioinfo
 vcf-sort AllDosage.vcf | bgzip -c > AllDosage.vcf.gz
 tabix -p vcf AllDosage.vcf.gz
-###############3.确认不同文件样本顺序一致##########
-Rscript check_sample_order.R
-Rscript cpg_locationfiles_prepare.R 
+###############3.准备协变量文件##########
+Rscript Prepare_peer.R
+Rscript covfile_prepare.R 
 #################4.运行MatrixeQTL#########
 qsub -l nodes=1:ppn=4,vmem=64gb -o MatrixEQTL_30peer.o -e MatrixEQTL_30peer.e -N MatrixEQTL_30peer MatrixEQTL_30peer.sh
 qsub -l nodes=1:ppn=4,vmem=64gb -o MatrixEQTL_25peer.o -e MatrixEQTL_25peer.e -N MatrixEQTL_25peer MatrixEQTL_25peer.sh
